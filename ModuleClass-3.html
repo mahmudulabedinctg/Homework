@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module Class 3 - Mahmudul Abedin</title>
+    <link rel="shortcut icon" href="./icon/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <form action="">
+        <h1 style="text-align: center;">Registration Form</h1><hr>
+        <h2 style="text-align: center;">Create a New Account</h2><hr>        
+        <p style="font-size: 15pt;"><b>Personal Details :</b></p>
+        <label for="fname"><b>First name :</b></label>
+        <input type="text" id="fname"required><br><br>
+        <label for="lname"><b>Last Name :</b></label>
+        <input type="text" id="lname" required><br><br>
+        <label for="dob"><b>Date of Birth :</b></label>
+        <input type="date" id="dob" required><br><br>
+        <label><b>Nationality :</b></label> 
+        <select required>
+        <option value="none"></option>
+        <option value="American">American</option>
+        <option value="Armenian">Armenian</option>
+        <option value="Bangladeshi">Bangladeshi</option>
+        <option value="English">English</option>
+        <option value="French">French</option>
+        <option value="German">German</option>
+        <option value="Russian">Russian</option>
+        </select><br><br>
+        <label><b>Gender :</b></label>
+        <input type="radio" name="gen" id="m" required><label for="m">Male</label>
+        <input type="radio" name="gen" id="f" required><label for="f">Female</label><br><br>
+        <label><b>Married :</b></label>
+        <input type="radio" name="Married" id="y"><label for="y">Yes</label>
+        <input type="radio" name="Married" id="n"><label for="n">No</label><br><br>
+        <label for="Hobbies"><b>Hobbies :</b></label>        
+        <textarea name="Hobbies" id="Hobbies"></textarea>
+        <p style="font-size: 15pt;"><b>Address :</p>
+        <input type="text" placeholder="Street">
+        <input type="text" placeholder="City" required><br><br>
+        <input type="number" placeholder="Post Code" required>
+        <input type="text" placeholder="Country" required><br><br>
+        <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+        <input type="url" name="" id="" placeholder="Website">
+        <p style="font-size: 15pt;"><b>Account Details :</p>
+        <label>Email : </label><input type="email" name="name" required><br><br>
+        <label>Password : </label><input type="password" name="name" required><br><br>
+        <label>Confirm Password : </label><input type="password" name="name" required>
+        <br><br><br>
+        <input type="checkbox" name="checkbox"><label>I accept the Privacy Policy.</label><br>
+        <input type="checkbox" name="checkbox"><label>I want to recelve personallzed offers by your site</label>
+        <br><br><br><input type="submit" value="Submit"><br><br><input type="reset" value="Reset">
+    </form>
+</body>
+</html>
